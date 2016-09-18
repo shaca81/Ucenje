@@ -17,12 +17,12 @@ def sendemail(from_addr, to_addr_list,
     server.sendmail(from_addr, to_addr_list, message)
     server.quit()
 
- sendemail(from_addr='stankovic.milos@gmail.com' ,
-           to_addr_list=['stankovic.milos@gmail.com'],
+ sendemail(from_addr='xx@xx.com' ,
+           to_addr_list=['xx@xx.com'],
            # cc_addr_list=['RC@xx.co.uk'],
            subject='Howdy',
            message='Howdy from a python function',
-           login='stankovic.milos',
-           password='Drugalozinka12!')
+           login='xx@xx.com',
+           password='xxx')
 
 
