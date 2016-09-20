@@ -1,2 +1,2 @@
-# Ucenje
+## Ucenje
 Ucenje python-a
